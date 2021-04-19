@@ -15,8 +15,13 @@
 </head>
 
 <body>
-    <h1><%= "Hello World!" %>
-    </h1>
+    <nav>
+        <ul class="links">
+            <li><a href="index.jsp" style="text-decoration: none; color: white">Call A Manager</a></li>
+            <li><a href="index.jsp" style="text-decoration: none; color: white">MyWorkSchedule</a></li>
+            <li><a href="index.jsp" style="text-decoration: none; color: white">View Calendar</a></li>
+        </ul>
+    </nav>
     <br/>
     <a href="hello-servlet">Hello Servlet</a>
 </body>
