@@ -5,7 +5,7 @@
 <head>
     <title>myworkscedule - Home</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/css/index.css" />
     <style>
         main {
             padding: .5rem;
