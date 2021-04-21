@@ -1,9 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
 nav {
-    width: 100%;
     display: flex;
     background-color: #001d73;
     color: #ffffff;
     padding: 1rem 10rem;
+    border-bottom: 4px solid #000;
 }
 
 nav ul {
@@ -24,6 +37,11 @@ footer {
     text-align: center;
     font-weight: bold;
     margin-top: auto;
+    right: 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    border-top: 4px solid #000;
 }
 
 .links {
@@ -33,22 +51,24 @@ footer {
 
 .checkin {
     background-color: #246701;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
+    color: black;
     cursor: pointer;
     opacity: 0.9;
+    width: 20%;
+    border:2px solid black;
+    margin: 10px 10px 10px 10px;
+    border-radius: 10px;
 }
 
 .checkout {
     background-color: #8f002e;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
+    color: black;
+    margin: auto;
     cursor: pointer;
     opacity: 0.9;
+    width: 20%;
+    border:2px solid black;
+    border-radius: 10px;
 }
 
 #main_head {
@@ -59,11 +79,14 @@ footer {
 #managercheck {
     background-color: #4CAF50;
     color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
     cursor: pointer;
-    width: 100%;
-    opacity: 0.9;
+    width: 15%;
     float:right;
+    border:1px solid black;
+    border-radius: 25px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    display: block;
+    margin-left:auto;
+    order:2;
 }
