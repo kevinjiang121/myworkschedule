@@ -7,12 +7,13 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/css/index.css" />
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
         main {
             padding: .5rem;
             text-align: center;
         }
 
-        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
     </style>
 </head>
 
