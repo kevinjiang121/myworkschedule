@@ -29,7 +29,7 @@
     </nav>
 </div>
 <main>
-    <h1>View Shifts</h1>
+    <h1>View Shifts.</h1>
 </main>
 <footer>Copyright &copy; AnotherRandomGuy 2021</footer>
 </body>
