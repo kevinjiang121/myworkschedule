@@ -93,4 +93,14 @@ footer {
     display: block;
     margin-left:auto;
     order:2;
+    text-decoration: none;
+}
+
+.login {
+    margin:auto;
+    top:25%;
+    left:25%;
+    width: 50%;
+    border: 3px solid #080808;
+    padding: 50px;
 }
