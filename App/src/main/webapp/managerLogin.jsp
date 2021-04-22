@@ -29,7 +29,7 @@
     </nav>
 </div>
 <main>
-    <h1>Manager Login</h1>
+    <h1>Manager Login.</h1>
 </main>
 <footer>Copyright &copy; AnotherRandomGuy 2021</footer>
 </body>
