@@ -25,11 +25,22 @@
             <li><a href="callManager.jsp" style="text-decoration: none; color: white">Call A Manager</a></li>
             <li><a href="viewShifts.jsp" style="text-decoration: none; color: white">View Shifts</a></li>
         </ul>
-        <a href="managerLogin.jsp"><h1 id="managercheck">Manager Log-in</h1></a>
+        <a href="managerLogin.jsp" id="managercheck"><h1>Manager Log-in</h1></a>
     </nav>
 </div>
 <main>
-    <h1>Manager Login</h1>
+    <div class = "login">
+        <h1>Manager Login</h1>
+        <form action id="login">
+            <label><b>Email</b></label><br>
+            <input type="text" name="email" placeholder="Email..." id="username2" required/>
+            <br><br>
+            <label><b>Password</b></label><br>
+            <input type="password" name="password" placeholder="Password..." id="username" required/>
+            <br><br>
+            <button type="submit" id="create" onClick = "funcCaller()" value="Submit">Login</button>
+        </form>
+    </div>
 </main>
 <footer>Copyright &copy; AnotherRandomGuy 2021</footer>
 </body>

@@ -25,11 +25,11 @@
             <li><a href="callManager.jsp" style="text-decoration: none; color: white">Call A Manager</a></li>
             <li><a href="viewShifts.jsp" style="text-decoration: none; color: white">View Shifts</a></li>
         </ul>
-        <a href="managerLogin.jsp"><h1 id="managercheck">Manager Log-in</h1></a>
+        <a href="managerLogin.jsp" id="managercheck"><h1>Manager Log-in</h1></a>
     </nav>
 </div>
 <main>
-    <h1>View Shifts</h1>
+    <h1>View Shifts.</h1>
 </main>
 <footer>Copyright &copy; AnotherRandomGuy 2021</footer>
 </body>
