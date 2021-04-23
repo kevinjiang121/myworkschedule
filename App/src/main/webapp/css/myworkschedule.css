@@ -98,9 +98,8 @@ footer {
 
 .login {
     margin:auto;
-    top:25%;
-    left:25%;
-    width: 50%;
+    top:35%;
+    width: 40%;
     border: 3px solid #080808;
     padding: 50px;
 }
@@ -112,4 +111,14 @@ input[type=text], input[type=password] {
     display: inline-block;
     border: none;
     background: #f1f1f1;
+}
+
+#loginBtn {
+    background-color: #001D73;
+    color: white;
+    padding: 12px 16px;
+    cursor: pointer;
+    width: 30%;
+    border:2px solid black;
+    border-radius: 10px;
 }
