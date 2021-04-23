@@ -5,7 +5,7 @@
 <head>
     <title>myworkscedule - Home</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="${pageContext.request.contextPath}/css/index.css" />
+    <link rel="stylesheet" href="${pageContext.request.contextPath}$/css/myworkschedule.css" />
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 

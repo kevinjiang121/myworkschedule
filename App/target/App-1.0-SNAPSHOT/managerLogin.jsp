@@ -5,7 +5,7 @@
 <head>
     <title>myworkscedule - Home</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="${pageContext.request.contextPath}/css/index.css" />
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/css/myworkschedule.css" />
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
@@ -32,11 +32,11 @@
     <div class = "login">
         <h1>Manager Login</h1>
         <form action id="login">
-            <label><b>Email</b></label><br>
-            <input type="text" name="email" placeholder="Email..." id="username2" required/>
+            <label for="e-mail"><b>Email</b></label><br>
+            <input type="text" name="email" placeholder="Email..." id="e-mail" required>
             <br><br>
-            <label><b>Password</b></label><br>
-            <input type="password" name="password" placeholder="Password..." id="username" required/>
+            <label for="passd" ><b>Password</b></label><br>
+            <input type="password" name="password" placeholder="Password..." id="passd" required>
             <br><br>
             <button type="submit" id="create" onClick = "funcCaller()" value="Submit">Login</button>
         </form>
