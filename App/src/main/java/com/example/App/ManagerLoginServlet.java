@@ -1,8 +1,10 @@
+package com.example.App;
+
 import java.io.*;
 import javax.servlet.http.*;
 import javax.servlet.annotation.*;
 
-@WebServlet(name = "ManagerLoginServlet", value = "/ManagerLoginServlet")
+@WebServlet(name = "com.example.App.ManagerLoginServlet", value = "/com.example.App.ManagerLoginServlet")
 public class ManagerLoginServlet extends HttpServlet {
     private String message;
 
