@@ -8,28 +8,19 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 public class EmployeeDao {
-    private final String jdbcUrl = "jdbc:mysql://localhost:3306/bookstore";
-    private final String dbUser = "";
-    private final String dbPass = "";
-    private final String encrypt = "";
+    private final String jdbcUrl = "jdbc:mysql://localhost:3306/work";
+    private final String dbUser = "Owner";
+    private final String dbPass = "MisterOwner!.";
+    private final String encrypt = "19oPwKJK";
 
-    /*
-    public int registerUser(Employee employee) throws ClassNotFoundException {
-        String FETCH_ID_SQL = "SELECT MAX(employeeID) FROM employee";
-        String INSERT_USERS_SQL = "";
-
-        int result = 0;
-
-
-    }*
-     */
     public Employee managerLoggingIn(String email, String password) throws ClassNotFoundException {
-        String LOGIN_INFO_SQL = "SELECT employeeID, name, isManager FROM `employee` WHERE email = ? AND password = aes_encrypt(?, ?)";
         Employee manager = null;
         Class.forName("com.mysql.jdbc.Driver");
 
         try {
             Connection conn = DriverManager.getConnection(jdbcUrl, dbUser, dbPass);
+            String LOGIN_INFO_SQL;
+            LOGIN_INFO_SQL = "SELECT employeeID, name, isManager FROM `employee` WHERE email = ? AND password = aes_encrypt(?, ?)";
             PreparedStatement loginStatement = conn.prepareStatement(LOGIN_INFO_SQL);
             loginStatement.setString(1, email);
             loginStatement.setString(2, password);
