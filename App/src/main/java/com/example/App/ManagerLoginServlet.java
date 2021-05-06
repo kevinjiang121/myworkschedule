@@ -38,7 +38,7 @@ public class ManagerLoginServlet extends HttpServlet {
         if(employee != null && employee.getEmployeeID() > 0 && !employee.getIsManager()) {
             session.setAttribute("uid", employee.getEmployeeID());
             session.setAttribute("name", employee.getName());
-            RequestDispatcher dispatcher = request.getRequestDispatcher("/loggedInIndex.jsp");
+            RequestDispatcher dispatcher = request.getRequestDispatcher("/managerLogin.jsp");
             dispatcher.forward(request, response);
         } else {
             RequestDispatcher dispatcher = request.getRequestDispatcher("/managerLogin.jsp");
